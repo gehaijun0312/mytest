@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;  
    
 import java.io.IOException;  
-public class EventCount {
+public class EventCount12312312312312312 {
 	 public static class MyMapper extends Mapper<Object, Text, Text, IntWritable>{  
 	        private final static IntWritable one = new IntWritable(1);  
 	        private Text event = new Text();  
